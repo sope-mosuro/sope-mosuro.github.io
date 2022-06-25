@@ -5,6 +5,9 @@
 .bg-green{
     background-color: #8ABB00;
 }
+.text-green{
+    color: #8ABB00;
+}
 .bg-light{
     background-color: #f1f1f1;
 }
@@ -12,10 +15,14 @@
     color: #8ABB00;
 }
 .text-shadow{
-    text-shadow: black 2px 5px 5px;
+    text-shadow: black 5px 5px 5px;
 }
 .move-up{
     top: 50%;
+}
+.placeholder{
+    background-color: white;
+    height: 140px;
 }
 
 /* MEDIA QUERIES FOR MOBILE RESPONSIVENESS */
@@ -26,6 +33,9 @@
     }
     .move-up{
         top: 50vh;
+    }
+    .placeholder{
+        height: 0px;
     }
 }
 /* Clients Carousel */
