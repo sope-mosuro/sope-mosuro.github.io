@@ -21,7 +21,7 @@
         ResCarouselSize();
     });
 
-    //this function define the size of the items
+    //this function defines the size of the items
     function ResCarouselSize() {
         var incno = 0;
         var dataItems = ("data-items");
@@ -67,7 +67,7 @@
     }
 
 
-    //this function used to move the items
+    //this function is used to move the items
     function ResCarousel(e, el, s) {
         var leftBtn = ('.leftLst');
         var rightBtn = ('.rightLst');
