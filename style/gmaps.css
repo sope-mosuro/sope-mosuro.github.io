@@ -1,0 +1,51 @@
+/*Various edits stop bootstrap*/
+#error-msg {
+  color: #C50707; 
+}
+
+table {
+    margin-top: -20px;
+
+  th {
+        color: white;
+        padding: 10px;
+    &.type {
+      background-color: #65686C;
+    }
+    
+    &.std-prem {
+      background-color: #6DA6F3;
+    }
+  }
+
+  td {
+      padding: 10px;  
+      border-bottom: 1px solid #000;
+      vertical-align: top;
+    p {
+      margin: 0;
+    }
+    
+    a {
+      color: #666 !important;    
+    }
+    
+    &.type {
+      background-color: #ccc;
+      color: black;
+      width: 30%;
+    }
+    
+    &.std-prem {
+      background-color: #E5F3FE;
+      color: black;
+    }
+  }
+}
+
+/*Map Styling*/
+#map-canvas{
+    border: groove 3px #ccc;
+    height: 400px; 
+    width: 100%;
+}
