@@ -42,6 +42,11 @@
     height: 100%;
 }
 
+/* Products Cards Titles */
+.pushdown{
+    margin-bottom: -50px;
+}
+
 /* Tile Calculator */
 .colorGradient{
     background-image: linear-gradient(rgb(71, 71, 71), rgb(75, 105, 35));
@@ -55,6 +60,16 @@
 }
 .calcshadow{
     box-shadow: 5px 5px 15px black;
+}
+/* Contact Us */
+.wallpaper{
+    background: url('/sope-mosuro.github.io/images/backImage.png') fixed no-repeat center;
+}
+.contactBlack{
+background-color: rgba(0, 0, 0, 0.8);
+}
+.border-green{
+    border-color:  #8ABB00!important;
 }
 /* MEDIA QUERIES FOR MOBILE RESPONSIVENESS */
 
