@@ -2,8 +2,20 @@
     background-color: rgba(6, 43, 11, 0.6);
     color: rgb(239, 234, 216);
 }
+.btn-outline-success{
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 2px solid #8ABB00!important;
+}
+.btn-outline-success:hover{
+    background-color: #8ABB00;
+    color: black;
+}
 .bg-green{
     background-color: #8ABB00;
+}
+.btn-dark:hover, .btn-dark:focus-within{
+    background-color: #8ABB00;
+    border-color: #8ABB00;
 }
 .text-green{
     color: #8ABB00;

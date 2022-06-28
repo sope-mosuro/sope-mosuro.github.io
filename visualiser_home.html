@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cera's Visualizer</title>
+        <link rel="shortcut icon" href="images/boxlogo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="/Ceras/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="style/vis.css">
+        
+    </head>
+        <body class="wallpaper">
+            <div class="home container-fluid mt-md-5">
+                <div class="row text-center">
+                    <h1 class="display-1 mb-5">
+                        WELCOME TO OUR VISUALISER
+                    </h1>
+                    <h5>Please select your choice of visualisation</h5>
+                </div>
+                <div class="row justify-content-center my-md-auto py-5 g-5">
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-white">
+                            <img src="images/vislivingroom_lite.jpg" class="card-img" alt="Living Room Image">
+                            <div class="card-img-overlay" onclick="changeScene('livingroom')">
+                              <h5 class="card-title text-center fs-2">Living Room Floor</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-white">
+                            <img src="images/viskitchen_lite.jpg" class="card-img" alt="Kitchen Image">
+                            <div class="card-img-overlay" onclick="changeScene('kitchen')">
+                              <h5 class="card-title text-center fs-2 shadow-lg">Kitchen Floor</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-white">
+                            <img src="images/visonwall_lite.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay" onclick="changeScene('onwall')">
+                              <h5 class="card-title text-center fs-2">Straight On Wall</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-1 text-start display-5"><</div>
+                    <div class="col-11 text-center display-5">LIVING ROOM</div>
+                </div>
+                <div class="row p-3 bg-light d-flex">
+                    <div class="col-3 w-100">
+                        <h2>SELECT PRODUCT</h2>
+                        <div class="bg-dark overflow-auto d-flex">
+                            <img class="p-2" style="max-width: 25%;" src="images/livingroom/green_check.jpg" alt="..." onclick="changeImage('green_check')">
+                            <img class="p-2" style="max-width: 25%;" src="images/livingroom/brown_granite.jpg" alt="..." onclick="changeImage('brown_granite')">
+                            <img class="p-2" style="max-width: 25%;" src="images/livingroom/black_granite.jpg" alt="..." onclick="changeImage('black_granite')">
+                            <img class="p-2" style="max-width: 25%;" src="images/livingroom/stripewood.jpg" alt="..." onclick="changeImage('stripewood')">
+                            <img class="p-2" style="max-width: 25%;" src="images/livingroom/blue_granite.jpg" alt="..." onclick="changeImage('blue_granite')">
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-12 imageContainerParent">
+                        <div class="card">
+                            <img src="images/livingroom/livingroom_default.jpg" class="card-img" id="theImage" alt="Scene">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="js/vis.js"></script>
+        </body>
+</html>
