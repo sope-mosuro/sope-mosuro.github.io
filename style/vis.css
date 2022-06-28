@@ -1,3 +1,16 @@
+body{
+    height: 100vh;
+    width: auto;
+}
+.livingroom{
+    display: none;
+}
+.kitchen{
+    display: none;
+}
+.wall{
+    display: none;
+}
 .imageContainerParent{
     position: relative;
     perspective: 1000px;
