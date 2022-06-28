@@ -1,0 +1,16 @@
+.imageContainerParent{
+    position: relative;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+}
+.imageContainer{
+    position: absolute;
+    background-image: url('/Ceras/onwall/bruno_pelle.jpg');
+    background-size: 75px;
+}
+#theImage {
+    height: 80vh ;
+}
+a div{
+    text-shadow: 2px 2px 5px black;
+}
