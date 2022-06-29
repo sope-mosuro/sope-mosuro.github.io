@@ -95,6 +95,10 @@ background-color: rgba(0, 0, 0, 0.8);
     .placeholder{
         height: 0px;
     }
+
+   
+
+    
 }
 /* Clients Carousel */
 .MultiCarousel {
@@ -125,3 +129,4 @@ background-color: rgba(0, 0, 0, 0.8);
     .pad15 img{
         height: 100px;
     }
+    
