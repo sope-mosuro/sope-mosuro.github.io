@@ -19,31 +19,71 @@
         <div class="fixed-top abs-top">
             <!-- Logo / Offcanvas nav -->
             <nav class="navbar navbar-dark bg-teal">
-                <div class="container-fluid">
+              <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="images/logo_light.png" alt="" height="50px"></a>
                 <button class="navbar-toggler d-none d-md-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="offcanvas bg-dark opacity-50 offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
+                  <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
+                  </div>
+                  <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 pt-5 fs-4">
-                        <li class="nav-item pt-3">
-                        <a class="nav-link text-white" href="floortiles.html">Floor Tiles</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link text-white" href="walltiles.html">Wall Tiles</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link text-white" href="specialtiles.html">Special Tiles</a>
-                        </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="floortiles.html" id="offcanvasNavbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Floor Tiles
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown1">
+                          <li><a class="dropdown-item" href="livingroomfloor.html">Living Room Floor</a></li>
+                          <li><a class="dropdown-item" href="kitchenfloor.html">Kitchen Floor</a></li>
+                          <li><a class="dropdown-item" href="bedroomfloor.html">Bedroom Floor</a></li>
+                          <li><a class="dropdown-item" href="bathroomfloor.html">Bathroom Floor</a></li>
+                          <li><a class="dropdown-item" href="outdoorfloor.html">Outdoor Floor</a></li>
+                          <li><a class="dropdown-item" href="commercialfloor.html">Commercial Floor</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="walltiles.html" id="offcanvasNavbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Wall Tiles
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown2">
+                          <li><a class="dropdown-item" href="livingroomwall.html">Living Room Wall</a></li>
+                          <li><a class="dropdown-item" href="kitchenwall.html">Kitchen Wall</a></li>
+                          <li><a class="dropdown-item" href="bedroomwall.html">Bedroom Wall</a></li>
+                          <li><a class="dropdown-item" href="bedroomwall.html">Bathroom Wall</a></li>
+                          <li><a class="dropdown-item" href="outdoorwall.html">Outdoor Wall</a></li>
+                          <li><a class="dropdown-item" href="commercialwall.html">Commercial Wall</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="specialtiles.html" id="offcanvasNavbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Special Tiles
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown3">
+                          <li><a class="dropdown-item" href="germfree.html">Germ Free Tiles</a></li>
+                          <li><a class="dropdown-item" href="anti-static.html">Anti-Static Tiles</a></li>
+                          <li><a class="dropdown-item" href="tac.html">Tac Tiles</a></li>
+                          <li><a class="dropdown-item" href="coolroof.html">Cool Roof Tiles</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                      </li>
                     </ul>
-                    </div>
+                  </div>
                 </div>
-                </div>
+              </div>
             </nav>
             <!-- Navbar / Links -->
             <nav class="navbar navbar-dark navbar-expand-md text-center text-bg-dark linkbar">
