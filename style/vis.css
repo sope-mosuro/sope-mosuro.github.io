@@ -19,9 +19,10 @@ body{
 .home .col-md-4 h5{
     text-shadow: 2px 2px 5px black;
 }
-.back-btn, .home > div > div > div > div{
+.back-btn, .home > div > div > div > div, .vh-75 > img{
     cursor: pointer;
 }
+
 
 @media (min-width:801px){
     .vh-75{
