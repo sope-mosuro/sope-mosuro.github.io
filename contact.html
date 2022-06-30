@@ -84,7 +84,7 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                   <ul class="navbar-nav menubarcolor fs-5">
                     <li class="nav-item px-4">
-                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item px-4">
                       <a class="nav-link" href="products.html">Products</a>
@@ -93,7 +93,7 @@
                       <a class="nav-link" href="expertscorner.html">Experts Corner</a>
                     </li>
                     <li class="nav-item px-4">
-                      <a class="nav-link" href="contact.html">Contact Us</a>
+                      <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
                     </li>
                   </ul>
                 </div>
@@ -116,8 +116,8 @@
                     <div class="my-3">
                         <form action="#" onsubmit="showAddress(this.address.value); return false">
                             <div class="row justify-content-center">
-                                <div class="col-12">
-                                    <input id="address" class="w-75 border-none" type="text" placeholder="Enter an address"  />
+                                <div class="col-12 hstack gap-1">
+                                    <input id="address me-a" class="form-control w-75 me-auto border-none" type="text" placeholder="Enter an address"  />
                                     <button class="btn btn-dark px-4" type="button" id="submit">Locate</button>
                                   <p id="error-msg"></p>
                                 </div>
@@ -160,13 +160,14 @@
                             <div class="col-4 opacity-50"></div>
                             </div>
                             <div class="col-12 bg-light py-5">
-                                <div>
-                                    FULL NAME <br><input class="w-100" type="text">
-                                    EMAIL <br><input class="w-100" type="email">
-                                    ADDRESS <br><input class="w-100" type="text">
-                                    COMMENT <br><textarea class="w-100" name="comment"></textarea>
+                                <div class="vstack gap-3">
+                                    FULL NAME <br><input class="form-control" type="text">
+                                    EMAIL <br><input class="form-control" type="email">
+                                    ADDRESS <br><input class="form-control" type="text">
+                                    COMMENT <br><textarea class="form-control" name="comment"></textarea>
+                                    <div class="d-flex flex-row-reverse"><a href="" class="btn btn-dark px-5">Submit</a></div>
                                 </div>
-                                <div class="d-flex flex-row-reverse"><a href="" class="btn btn-dark px-5">Submit</a></div>
+                                
                             </div>
                         </div>
                     </div>

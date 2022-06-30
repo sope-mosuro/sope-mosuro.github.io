@@ -12,15 +12,15 @@
         <link rel="stylesheet" href="style/vis.css">
         
     </head>
-        <body class="wallpaper">
-            <div class="home container-fluid mt-md-5">
-                <div class="row text-center">
+        <body class="wallpaper vh-100">
+            <div class="home container-fluid">
+                <div class="row justify-content-center text-center">
                     <h1 class="display-1 mb-5">
                         WELCOME TO OUR VISUALISER
                     </h1>
-                    <h5>Please select your choice of visualisation</h5>
+                    <h3>Please select your choice of visualisation</h3>
                 </div>
-                <div class="row justify-content-center my-md-auto py-5 g-5">
+                <div class="row justify-content-center my-md-auto py-5 g-4">
                     <div class="col-md-4">
                         <div class="card bg-dark text-white">
                             <img src="images/vislivingroom_lite.jpg" class="card-img" alt="Living Room Image">
@@ -47,24 +47,24 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-1 text-start display-5"><</div>
-                    <div class="col-11 text-center display-5">LIVING ROOM</div>
+            <div class="container vis_page">
+                <div class="row justify-content-center">
+                    <div class="col-1 text-start display-5 back-btn fw-bold" onclick="returnHome()"><</div>
+                    <div class="col-11 text-center display-5">scene</div>
                 </div>
-                <div class="row p-3 bg-light d-flex">
-                    <div class="col-3 w-100">
-                        <h2>SELECT PRODUCT</h2>
-                        <div class="bg-dark overflow-auto d-flex">
-                            <img class="p-2" style="max-width: 25%;" src="images/livingroom/green_check.jpg" alt="..." onclick="changeImage('green_check')">
-                            <img class="p-2" style="max-width: 25%;" src="images/livingroom/brown_granite.jpg" alt="..." onclick="changeImage('brown_granite')">
-                            <img class="p-2" style="max-width: 25%;" src="images/livingroom/black_granite.jpg" alt="..." onclick="changeImage('black_granite')">
-                            <img class="p-2" style="max-width: 25%;" src="images/livingroom/stripewood.jpg" alt="..." onclick="changeImage('stripewood')">
-                            <img class="p-2" style="max-width: 25%;" src="images/livingroom/blue_granite.jpg" alt="..." onclick="changeImage('blue_granite')">
+                <div class="row p-3 bg-light">
+                    <h2 class="text-center text-md-start">SELECT PRODUCT</h2>
+                    <div class="col-md-3">
+                        <div class="vh-75 bg-dark d-flex flex-md-column overflow-auto">
+                            <img class="p-2" src="images/livingroom/green_check.jpg" alt="..." onclick="changeImage('green_check')">
+                            <img class="p-2" src="images/livingroom/brown_granite.jpg" alt="..." onclick="changeImage('brown_granite')">
+                            <img class="p-2" src="images/livingroom/black_granite.jpg" alt="..." onclick="changeImage('black_granite')">
+                            <img class="p-2" src="images/livingroom/stripewood.jpg" alt="..." onclick="changeImage('stripewood')">
+                            <img class="p-2" src="images/livingroom/blue_granite.jpg" alt="..." onclick="changeImage('blue_granite')">
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-12 imageContainerParent">
-                        <div class="card">
+                        <div class="card imageContainer">
                             <img src="images/livingroom/livingroom_default.jpg" class="card-img" id="theImage" alt="Scene">
                         </div>
                     </div>
