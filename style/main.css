@@ -37,23 +37,6 @@
     height: 140px;
 }
 
-/* Responsive iFrame */
-.iframeContainer{
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%;
-}
-.responsive-iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
 /* Products Cards Titles */
 .pushdown{
     margin-bottom: -50px;
@@ -83,6 +66,15 @@ background-color: rgba(0, 0, 0, 0.8);
 .border-green{
     border-color:  #8ABB00!important;
 }
+/* Matching bootstrap's form control theme with site theme */
+.form-control {
+    border-color: #8ABB00;
+    /* box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25); */
+} 
+.form-control:focus {
+    border-color: #8ABB00;
+    box-shadow: 0 0 0 0.2rem rgba(111, 180, 0, 0.25);
+} 
 /* MEDIA QUERIES FOR MOBILE RESPONSIVENESS */
 
 @media only screen and (max-width: 600px) {
@@ -96,6 +88,7 @@ background-color: rgba(0, 0, 0, 0.8);
         height: 0px;
     }
 }
+
 /* Clients Carousel */
 .MultiCarousel {
     float: left; overflow: hidden; padding: 15px; width: 100%; position:relative;
